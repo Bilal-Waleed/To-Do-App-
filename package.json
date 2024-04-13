@@ -4,7 +4,9 @@
   "description": "This is a to-do app developed using TypeScript",
   "main": "index.js",
   "type": "module",
-  "bin": "index.js",
+  "bin": {
+    "artica-to-do-app-": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
